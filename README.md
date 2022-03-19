@@ -13,3 +13,6 @@
 ReplicaSet(Newer Version) and ReplicationController(Older Version) both are same. Only difference is that RC supports Equality-based Selectors whereas RS supports Set-based Selectors.
 
 <img width="1477" alt="image" src="https://user-images.githubusercontent.com/19406666/159111099-b74a46a1-8de7-453d-a2b3-bd3e43687769.png">
+
+<img width="1326" alt="image" src="https://user-images.githubusercontent.com/19406666/159111162-a2ae69ec-2ce9-4ee4-9c79-c0f62408f509.png">
+
