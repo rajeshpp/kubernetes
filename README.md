@@ -1,5 +1,7 @@
 # kubernetes
 
+Commands used for ReplicationController
+-----------------------------------------
 1. kubectl get pods
 2. kubectl get pods -o wide
 3. kubectl get pods -l app=nginx
@@ -9,6 +11,19 @@
 7. kubectl scale rc nginx --replicas=4
 8. kubectl create -f replicationController.yaml
 9. kubectl delete -f replicationController.yaml
+
+Commands used for ReplicaSet
+----------------------------
+1. kubectl create -f replicaSet.yaml
+2. kubectl get pods
+3. kubectl get pods -l tier=frontend
+4. kubectl get rs nginx-rs
+5. kubectl get rs nginx-rs -o wide
+6. kubectl describe rs nginx-rs
+7. kubectl get po -o wide
+8. kubectl scale rs nginx-rs --replicas=5
+9. kubectl delete -f replicaSet.yaml
+
 
 ReplicaSet(Newer Version) and ReplicationController(Older Version) both are same. Only difference is that RC supports Equality-based Selectors whereas RS supports Set-based Selectors.
 
