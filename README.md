@@ -27,6 +27,18 @@ Commands used for ReplicaSet
 
 ReplicaSet(Newer Version) and ReplicationController(Older Version) both are same. Only difference is that RC supports Equality-based Selectors whereas RS supports Set-based Selectors.
 
+Commands used for Deployment
+----------------------------
+1. kubectl create -f deployment.yaml
+2. kubectl get pods
+3. kubectl describe deployment nginx-deploy
+4. kubectl get po -l app=nginx-app
+5. kubectl get rs -l app=nginx-app
+6. kubectl get deploy -l app=nginx-app
+7. RollingUpdate: kubectl set image deploy nginx-deploy nginx-container=nginx:1.9.1  OR kubectl edit deploy nginx-deploy
+
+Deployment uses replicaSet behind the scenes.
+
 <img width="1477" alt="image" src="https://user-images.githubusercontent.com/19406666/159111099-b74a46a1-8de7-453d-a2b3-bd3e43687769.png">
 
 <img width="1326" alt="image" src="https://user-images.githubusercontent.com/19406666/159111162-a2ae69ec-2ce9-4ee4-9c79-c0f62408f509.png">
