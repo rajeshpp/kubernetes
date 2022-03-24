@@ -44,7 +44,7 @@ Commands used for Deployment
 7. RollingUpdate: kubectl set image deploy nginx-deploy nginx-container=nginx:1.9.1  OR kubectl edit deploy nginx-deploy
 8. kubectl rollout status deployment/nginx-deploy
 9. kubectl get deploy
-**Rollback Deployment:**
+</br>**Rollback Deployment:**
 11. kubectl set image deploy nginx-deploy nginx-container=nginx:1.91 --record
 12. kubectl rollout status deployment/nginx-deploy
 13. kubectl rollout history deployment/nginx-deploy
