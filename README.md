@@ -42,6 +42,14 @@ Commands used for Deployment
 5. kubectl get rs -l app=nginx-app
 6. kubectl get deploy -l app=nginx-app
 7. RollingUpdate: kubectl set image deploy nginx-deploy nginx-container=nginx:1.9.1  OR kubectl edit deploy nginx-deploy
+8. kubectl rollout status deployment/nginx-deploy
+9. kubectl get deploy
+**Rollback Deployment:**
+11. kubectl set image deploy nginx-deploy nginx-container=nginx:1.91 --record
+12. kubectl rollout status deployment/nginx-deploy
+13. kubectl rollout history deployment/nginx-deploy
+14. kubectl rollout undo deployment/nginx-deploy
+15. kubectl scale deployment nginx-deploy --replicas=2
 
 Deployment uses replicaSet behind the scenes.
 
