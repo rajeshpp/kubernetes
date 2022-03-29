@@ -53,3 +53,10 @@ Commands used for Deployment
 
 Deployment uses replicaSet behind the scenes.
 
+
+Services in Kubernetes
+----------------------------
+When webapp is deployed:
+1. How does this front end webapp is exposed to the outside world?
+2. How do frontend webapp is connected to backend database?
+3. How do we resolve Pod IP Changes, when they die?
