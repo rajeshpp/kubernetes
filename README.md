@@ -60,3 +60,8 @@ When webapp is deployed:
 1. How does this front end webapp is exposed to the outside world?
 2. How do frontend webapp is connected to backend database?
 3. How do we resolve Pod IP Changes, when they die?
+
+Why do we need Services:
+1. Is it possible to have permanent IP Address?
+2. How do various components connect & communicate?
+3. How do applications are exposed to outside world?
