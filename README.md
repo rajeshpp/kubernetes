@@ -68,3 +68,10 @@ Why do we need Services:
 
 Types of Services:
 <br/><img width="750" height="250" alt="image" src="https://user-images.githubusercontent.com/19406666/161389127-74269447-e852-4835-bea3-03cfdceaa7a8.png">
+
+**NodePort**:
+<br/><img width="550" height="250" alt="image" src="https://user-images.githubusercontent.com/19406666/161582426-a91ae33a-0805-49d9-98a7-422d5135cd57.png">
+<br/><img width="750" height="250" alt="image" src="https://user-images.githubusercontent.com/19406666/161582739-485f8932-594d-491b-90f0-c9e4fa141b05.png">
+<br/><img width="750" height="250" alt="image" src="https://user-images.githubusercontent.com/19406666/161582810-9ac0da3a-0f49-48f5-9da9-481143ce8da3.png">
+
+
